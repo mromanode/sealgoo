@@ -101,7 +101,7 @@ def setup_selenium_driver(driver_path):
             "download.default_directory": str(DOWNLOAD_DIR.resolve()),
             "download.prompt_for_download": False,
             "download.directory_upgrade": True,
-            "safebrowsing.enabled": True,
+            "safebrowsing.disabled": True,
         },
     )
 
